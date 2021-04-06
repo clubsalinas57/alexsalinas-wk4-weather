@@ -10,28 +10,75 @@
         <link rel="stylesheet" href="./Assets/style.css">
     </head>
     <body>
-        <div class="container">
+        <div class="container-fluid">
+            <h3>WEATHER MACHINE</h3>
+        </div>
             <div class="row">
-                <section class="col-md-3">
+                <section class="col-md-4">
                     <div class="input">
                         <input type="text" class="inputValue" placeholder="Enter A City">
                         <input type="submit" value="Submit" class="button">
+                        <button>Clear All</button>
                     </div>
                 </section>
-                <section class="col-md-9">
-                    <div class="display">
-                        <h1 class="location"></h1>
+                <section class="col-md-8">
+                        <div class="display">
+                        <h1 class="location"></h1> 
                         <p class="date"></p>
-                        <img class="graphic"></img>
+                        <p class="icon"></p>
                         <p class="temp"></p>
                         <p class="humidity"></p>
                         <p class="wind"></p>
                     </div>
+                    <div class="display-2">
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Special title treatment</h5>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-2">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Special title treatment</h5>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>    
+                            <div class="col-sm-2">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Special title treatment</h5>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-2">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Specia title treatment</h5>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>    
+                            <div class="col-sm-2">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Special title treatment</h5>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </section>
             </div>
-        </div>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
         <script src="./Assets/script.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
     </body>
 </html>
